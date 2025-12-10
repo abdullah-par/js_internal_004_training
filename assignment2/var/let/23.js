@@ -1,0 +1,13 @@
+function minMax(arr) {
+  let min = arr[0];
+  let max = arr[0];
+
+  for (let num of arr) {
+    if (num < min) min = num;
+    if (num > max) max = num;
+  }
+
+  return { min, max };
+}
+
+console.log(minMax([3, 8, 1, 9, 4]));
