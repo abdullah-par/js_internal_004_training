@@ -4,4 +4,14 @@ function double(n){
 ch = double(2)
 console.log(ch)
 let arr = [1,2,3,4,5,"Hello",ch]
-console.log(arr)
+// console.log(arr) 
+//Array Practice
+let fruits = ["Apple","Banana","Mango","Guava","Watermelon"]
+fruits.push("Papaya")
+fruits.pop()
+fruits.unshift("Kiwi")
+fruits.includes("Mango")
+fruits.indexOf("Banana")
+for(let i = 0;i<fruits.length;i++){
+    console.log(fruits[i])
+}
