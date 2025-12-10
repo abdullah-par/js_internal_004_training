@@ -18,3 +18,11 @@ for(let i = 0;i<fruits.length;i++){
 for(let item of fruits){
     console.log(item);
 }
+//reduce syntax
+/*
+ array.reduce((accumulator, currentValue)=>{
+    },initialValue)
+    accumulator -> stores the result as the loop continues
+    currentValue -> current element of array being processed
+    initialValue -> starting value for accumulator
+*/
