@@ -32,3 +32,7 @@ const students = [
 
 const above60 = students.filter(({name, grade}) => grade > 60).map(({name}) => name);
 console.log(above60)
+
+const {name, ...rest} = students[0];
+console.log(name)
+console.log(rest)
